@@ -15,6 +15,9 @@
 
 //place function prototypes here
 
+void ip21(void);
+
+
 void rtFun(void);
 
 void JLeyva(void);
@@ -26,6 +29,7 @@ void printStudent30(void);
 void printInitialsAjewett(void);
 
 void jgFun(void);
+
 
 
 
@@ -154,6 +158,7 @@ int main(int argc, char *argv[])
 			}
 			case 21:
 			{
+				ip21();
 				puts("room21");
 				break;
 			}
@@ -442,6 +447,11 @@ int main(int argc, char *argv[])
 }
 
 //place functions here
+
+void ip21(void)
+{
+	printf("IP\n");
+}
 
 void rtFun(void)
 {
