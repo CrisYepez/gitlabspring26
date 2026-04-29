@@ -16,6 +16,8 @@
 
 
 //place function prototypes here
+void rgarcia_fun(void);
+
 void ls(void);
 
 void mnFun(void);
@@ -342,6 +344,7 @@ int main(int argc, char *argv[])
 			}
 			case 47:
 			{
+				rgarcia_fun();
 				puts("room47");
 				break;
 			}
@@ -515,6 +518,11 @@ void mnFun(void)
 
 
 //place functions here
+void rgarcia_fun(void)
+{
+	printf("RJG");
+}
+
 
 void ls(void)
 {
