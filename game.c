@@ -3,7 +3,7 @@
 //LS
 //Ryan Rodriguez
 //
-
+void ANFUN(void);
 
 
 #include <stdlib.h>
@@ -16,6 +16,8 @@
 
 
 //place function prototypes here
+void rgarcia_fun(void);
+
 void ls(void);
 void mnFun(void);
 void JMfun(void);
@@ -29,6 +31,7 @@ void theSigmaMethod(void);
 void jbInit(void);
 void ip21(void);
 void folksamEV(void);
+void sonionRH(void);
 void ip21(void);
 void rtFun(void);
 void JLeyva(void);
@@ -39,7 +42,11 @@ void jgFun(void);
 void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
+
 void room49game(void);
+
+void dleyva14(void);
+
 
 int main(int argc, char *argv[])
 {
@@ -115,11 +122,13 @@ int main(int argc, char *argv[])
 			}
 			case 11:
 			{
+				dleyva14();
 				puts("room11");
 				break;
 			}
 			case 12:
 			{
+				ANFUN();
 				puts("room12");
 				break;
 			}
@@ -242,6 +251,12 @@ int main(int argc, char *argv[])
 			}
 			case 34:
 			{
+				puts("room34");
+				break;
+			}
+			case 35:
+			{
+				sonionRH();
 				puts("room35");
 				break;
 			}
@@ -305,6 +320,7 @@ int main(int argc, char *argv[])
 			}
 			case 47:
 			{
+				rgarcia_fun();
 				puts("room47");
 				break;
 			}
@@ -484,6 +500,14 @@ void mnFun(void)
 
 
 
+//place functions here
+void rgarcia_fun(void)
+{
+	printf("RJG");
+}
+
+
+
 void ls(void)
 {
 	printf("LS\n");
@@ -551,6 +575,11 @@ void folksamEV(void)
 	printf("EV\n");
 }
 
+void sonionRH(void) 
+{
+	printf("RAOOL-HIG\n");
+}
+
 void jbInit()
 {
 	puts("jbRoom17");
@@ -604,6 +633,15 @@ void printInitialsSMarkos(void)
 	printf("SM\n");
 }
 
+
+void ANFUN(void)
+{
+    printf("AN");
+}
+void dleyva14(void)
+{
+	printf("DL\n");
+}
 
 
 
