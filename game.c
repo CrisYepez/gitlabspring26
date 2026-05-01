@@ -2,7 +2,7 @@
 //GP+
 //LS
 //Ryan Rodriguez
-//
+//Anthony Farris
 
 
 
@@ -16,6 +16,7 @@
 
 
 //place function prototypes here
+void thanos1v9(void);
 void ls(void);
 void mnFun(void);
 void JMfun(void);
@@ -331,6 +332,7 @@ int main(int argc, char *argv[])
 			}
 			case 52:
 			{
+				thanos1v9();
 				puts("room52");
 				break;
 			}
@@ -471,6 +473,10 @@ int main(int argc, char *argv[])
 
 //place function definitions below this comment
 
+void thanos1v9(void)
+{ 
+	puts("AFroom52");
+}
 
 void mnFun(void)
 {
