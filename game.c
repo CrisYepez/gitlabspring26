@@ -40,6 +40,7 @@ void printInitialsSMarkos(void);
 void brooklynstitt(void);
 void PogoAM(void);
 void dleyva14(void);
+void ncInitial(void);
 
 int main(int argc, char *argv[])
 {
@@ -139,6 +140,7 @@ int main(int argc, char *argv[])
 			}
 			case 15:
 			{
+				ncInitial();
 				puts("room15");
 				break;
 			}
@@ -608,6 +610,11 @@ void ANFUN(void)
 void dleyva14(void)
 {
 	printf("DL\n");
+}
+
+void ncInitial(void)
+{
+	printf("NC");
 }
 
 
